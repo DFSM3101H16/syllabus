@@ -17,4 +17,10 @@ You can write code together in pairs, possibly three in one team if we are an od
 ## Pulling repositories and modifying them
 It's easy to pull repositories from github, and play with the code yourself. Then, providing the licenses provide for that, you can fork the software with any improvements you have made, you can possibly upload improvements on the code and so on.
 
-As an example that I will use in our first lecture, I pulled [this repository](https://github.com/allanino/BallisticGame) to "make" a game using the Newton's second law in two dimensions with a constant acceleration.
+As an example that I will use in our first lecture, I pulled [this repository](https://github.com/allanino/BallisticGame) to "make" a game using the Newton's second law in two dimensions with a constant acceleration. I tweaked the code to allow for arbitraty gravitational acceleration (g \neq 9.81).
+
+## Coding language
+There are of course many languages used in coding games and simulators.
+
+## Book
+We use "*Physics for game programmers*" by Grant Palmer. All the code for the games in the book can be downloaded from [the publisher's website](http://www.apress.com/9781590594728?gtmf=s), but are also included in this repository (*files/code_from_book.zip*)
