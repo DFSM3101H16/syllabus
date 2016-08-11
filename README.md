@@ -23,4 +23,4 @@ As an example that I will use in our first lecture, I pulled [this repository](h
 There are of course many languages used in coding games and simulators.
 
 ## Book
-We use "*Physics for game programmers*" by Grant Palmer. All the code for the games in the book can be downloaded from [the publisher's website](http://www.apress.com/9781590594728?gtmf=s), but are also included in this repository (*files/code_from_book.zip*)
+We use "*Physics for game programmers*" by Grant Palmer. All the code for the games in the book can be downloaded from [the publisher's website](http://www.apress.com/9781590594728?gtmf=s).
