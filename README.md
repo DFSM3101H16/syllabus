@@ -1,8 +1,11 @@
 # syllabus
-Here you can find the course description, with assignments, links, and everything I want to give you.
+Here you can find the course description, with assignments, links, and everything I want to give you. This is the course [currriculum](https://www.usn.no/dfsm3101/simulering-og-modellering-article147888-11539.html).
 
 ## Using git
 Git is a version control softvare, great for working on code both for yourself and especially when collaborating. There are three main ways to use git: local repository, repository on a server, or a repository on github. We could set up a git-server on the college, and that way deny others read access to our repository. Otherwise we have to pay github to make a repository private, which is of course a very small fee for a private company...
+
+To learn about git, go [here](https://git-scm.com/doc).
+
 
 ## Lecture notes
 I will  upload all lecture notes here in this repository as time goes on, and for you to have the latest version of anything, all you need to do is to pull the latest version of the repository.
