@@ -4,7 +4,7 @@ Here you can find the course description, with assignments, links, and everythin
 ## Using git
 Git is a version control softvare, great for working on code both for yourself and especially when collaborating. There are three main ways to use git: local repository, repository on a server, or a repository on github. We could set up a git-server on the college, and that way deny others read access to our repository. Otherwise we have to pay github to make a repository private, which is of course a very small fee for a private company...
 
-To learn about git, go [here](https://git-scm.com/doc).
+To learn about git, go [here](https://git-scm.com/doc) and find out.
 
 
 ## Lecture notes
