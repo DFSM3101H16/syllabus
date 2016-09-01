@@ -9,6 +9,43 @@ Dere kan lage hvert deres repository på github organisasjonen til kurset. I det
 
 
 
+## Innlevering til tredje forelesning, torsdag 8.11
+Nå er det på tide at dere lager et spill med fysikk.
+
+Litt avhengig av hvordan det gikk med unity, så kan dere enten lage spillet i Java, pygame, gamecreator (eller hva det nå enn var) eller unity.
+
+### Spillet / bevegelsen
+Dere har flere valg av temaer innen det vi går gjennom i kapittel tre.
+
+* Fritt fall i tyngdefeltet.
+
+* Dytting av klosser med friksjon.
+
+* Kloss på skråplan, oppover eller nedover...
+
+* Fjærer, (som i spring, ikke fuglefjær)
+
+* Pendelbevegelse, (ku som henger i tau?)
+
+Dere skal lage deres første spill med fysikk. Det trenger ikke å være avansert fysikk eller avansert kode. Dette er første gjennomkjøring, og vi er nå interessert i å finne ut hvordan man hele prosessen foregår. Seinere kan vi øke kompleksiteten til spillet.
+
+Det viktigste er at dere legger inn regler for bevegelse som følger fysikkens lover.
+
+### Beskrivelse
+I tillegg til å få matematikken som beskriver fysikken inn i koden, så skal dere få den ned på papir. Det vil si, "papir". Dokumentasjon er viktig, så dere skal skrive et dokument som beskriver fysikken bak spillet deres.
+
+Det trenger ikke å være et langt dokument, men det skal være slik at at en annen som leser det forstår hvilke antagelser dere har gjort og hvordan modellen deres fungerer og hva den "simulerer".
+
+Ta med referanser til nettsider eller bøker, gi navn på kjente ligninger og så videre.
+
+Dere kan se på det som å løse ei oppgave i fysikk, bortsett fra at dere sjøl først skriver oppgaveteksten og så løser den sjøl.
+
+Bruk et ordentlig verktøy for å skrive ligninger. For eksempel libreoffice writer eller word, har **equation toolbox**. Dere kan gjerne bruke Latex, som er det beste verktøyet for å skrive dokumenter med ligninger. Dere kan få litt starthjelp fra meg om dere ønsker det. (Det som er flott med Latex er jo at man faktisk skriver det hele som en kode, som man så kompilerer til en flott pdf!)
+
+
+
+
+
 ## uke 1 - Torsdag 25. August
 
 1. Git! Først skal dere klone syllabus repositoriet fra [github](https://github.com/DFSM3101H16), og så fra deres lokale versjon av repositoriet, finner dere noen nyttige ting.
@@ -37,3 +74,6 @@ Dere skal skrive et memo hvor dere vurderer hvilket verktøy som er best egnet t
 
 
 Memoet skal ta form som et skriv til en prosjekt eller avdelingsleder, som har satt dere på saken med å finne det beste programmeringsverktøyet for en gitt oppgave. 
+
+
+
