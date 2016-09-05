@@ -2,14 +2,52 @@
 
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
-## Hvordan levere oppgaver?
-Først og fremst, vi skal bli enige om framgangsmåten her. Viser det seg å være en dårlig idé, så skroter vi den og finner på noe annet.
 
-Dere kan lage hvert deres repository på github organisasjonen til kurset. I dette repositoriet lager dere mapper og lagrer alle filene dere trenger til å gjøre alle oppgavene. Og så kan dere committe ting når dere har gjort de, og gjøre de endringenen som fins. Commits må da være inne før tidsfristen.
+# Obligatorisk oppgave, leveres torsdag 15.9
+Nå skal dere i ilden.
+
+Dere skal levere en komplett oppgave, som i formen er lik det dere skal levere til den avsluttende eksamensoppgava. Denne oppgava skal ha et spill med fysikk fra kapittel 3 eller 4. Til forskjell fra den endelige oppgava, så trenger ikke fysikken eller spillet å være særlig avansert.
+
+1. Bakgrunnsmaterialet til modellen skal beskrives i et dokument med referanser.
+
+2. Modellen/spillet/simulatoren skal dokumenteres og en brukermanual skal skrives. På en slik måte at man faktisk ville hatt utbytte av å lese den selv!
+
+3. Spillet/simulatoren skal programmeres og kunne kjøres.
+
+Alt committes i deres eget repository, i ei mappe som heter oblig1, og så pushes inn før forelesning torsdag 15.9.
+
+
+### Rapport
+Dokumentet som beskriver fysikken kan vi kalle en rapport.
+Dette skal være et dokument, skrevet i libreoffice, word eller latex, eller hva som helst som ser bra nok ut.
+
+Rapporten skal inneholde minst disse delkapitlene:
+1. Introduksjon
+2. Fysikken i spillet
+3. Implementasjon
+4. Referanser
+
+Fysikken skal beskrives med ligninger og figurer. Da må dere selv skrive inn ligningene og hvordan de løses. Dere trenger ikke å gå gjennom alle steg i utledningene som er i boka, men dere skal i det minste sette opp problemet, skissere løsningsmetodene, og sette opp de endelige ligningene som implementeres i koden deres.
+
+Delkapittel 3, implementasjon, er en beskrivelse av hvordan dere har kodet dette i programmet deres. Her skal de forskjellige bitene kode og innstillinger i unity for eksempel, beskrives. Gjerne med selve kodebitene kopiert inn i teksten, med en beskrivelse av hva koden oppnår.
+
+Referanser skal legges ved. Her kan man kopiere det som er lov å kopiere, så lenge man refererer til det. Det er egne innstillinger for referanser i libreoffice og word, og til latex så har vi bibtex, (som så klart er helt overlegent).
+
+### Brukermanual
+Brukermanualen skal inneholde all informasjon man trenger for å kjøre spillet, og skal skrives markdown, slik at den passer som en README.md på github.
+
+Ting å ta med:
+* Hvilke programmer som må være installert, dependencies som det heter på nynorsk (unity...)
+
+* Hvilke ting man kan kontrollere og hvordan man spiller spillet.
+
+### Kjørbar versjon av spillet
+Legg ved en kjørbar fil til både windows og linux.
 
 
 
-## Innlevering til tredje forelesning, torsdag 8.11
+
+# Innlevering til tredje forelesning, torsdag 8.9
 Nå er det på tide at dere lager et spill med fysikk.
 
 Litt avhengig av hvordan det gikk med unity, så kan dere enten lage spillet i Java, pygame, gamecreator (eller hva det nå enn var) eller unity.
@@ -44,9 +82,14 @@ Bruk et ordentlig verktøy for å skrive ligninger. For eksempel libreoffice wri
 
 
 
+## Hvordan levere oppgaver?
+Først og fremst, vi skal bli enige om framgangsmåten her. Viser det seg å være en dårlig idé, så skroter vi den og finner på noe annet.
+
+Dere kan lage hvert deres repository på github organisasjonen til kurset. I dette repositoriet lager dere mapper og lagrer alle filene dere trenger til å gjøre alle oppgavene. Og så kan dere committe ting når dere har gjort de, og gjøre de endringenen som fins. Commits må da være inne før tidsfristen.
 
 
-## uke 1 - Torsdag 25. August
+
+# uke 1 - Torsdag 25. August
 
 1. Git! Først skal dere klone syllabus repositoriet fra [github](https://github.com/DFSM3101H16), og så fra deres lokale versjon av repositoriet, finner dere noen nyttige ting.
 
