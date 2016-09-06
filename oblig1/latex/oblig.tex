@@ -3,6 +3,14 @@
 \usepackage[margin=1in,letterpaper]{geometry} % this shaves off default margins which are too big
 \usepackage{cite}
 \usepackage[squaren, derived]{SIunits} 
+\usepackage{rotating} % too rotate figures
+
+\usepackage{listings}
+\lstset{
+  language=matlab,
+  basicstyle=\ttfamily
+}
+
 \usepackage[utf8]{inputenc}
 \usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
 \hypersetup{
@@ -21,18 +29,122 @@
 \maketitle
 
 \section{Introduksjon}
+``The avengers of Ultron: The sliding game'' er et spill hvor man skal prøve å skli en boks opp et skråplan så langt som mulig uten å falle over enden.
 
 \section{Fysikken}
+Fysikken som ligger til grunn for spillet er friksjon og tyngdekraft på en kloss på et skråplan. 
 
-\subsection{Ligningene}
+\subsection{Krefter på klossen}
+I figur \ref{fig:kloss} ser vi systemet satt opp, med kreftene som virker på klossen. Her peker friksjonskrafta feil vei, siden klossen vår skal skli oppover på skråplanet. 
+
+
+
+\begin{figure}[ht!] 
+  \label{fig:kloss}
+  \begin{center}
+    \begin{turn}{0} % rotering
+        \includegraphics[scale=0.2]{boks} % scale er størrelse ift orig
+    \end{turn}
+  \end{center}
+  \caption{Kloss på skråplan. Her er er $f$ friksjonskrafta når klossen sklir nedover skråplanet. I spillet derimot så sklir klossen oppover skråplanet, og $\vec f$ peker da motsatt vei, nedover skråplanet.}
+\end{figure}
+
+Kreftene som virker på klossen er tyngdekrafta ($\vec G$), normalkrafta fra underlaget ($\vec N$) og friksjonskrafta fra underlaget ($\vec f$).
+
+\subsection{Variabler og input til spillet}
+Det tingene vi må vite om klossen før vi kan simulere bevegelsen dens er 
+
+\begin{enumerate}
+\item Massen, $m$, $[m]=\kilogram$
+\item Vinkelen skråplanet danner med horisontalen, $\theta$
+\item Startfarten oppover skråplanet, $v_0$, $[v_0]=\meter\per\second$
+\item Den dynamiske friksjonskoeffisienten mellom klossen og underlaget, $\mu_k$
+\item Lengden av skråplanet, $L$, $[L]=\meter$.
+\end{enumerate}
+
+
+
+\subsection{Løsningsmetode}
+Måten vi simulerer bevegelsen på, er å bruke Newtons andre lov som gir akselerasjonen ut i fra kreftene. Og fra akselerasjonen, samt startfart og startposisjon, finner vi farta og posisjonen for ethvert tidspunkt. 
+
+Først velger vi oss et kartesisk koordinatsystem, med positiv $x$-retning oppover skråplanet, og med positiv $y$-retning normalt oppover fra skråplanet.
+Så dekomponerere vi kreftene i de to retningene og setter opp Newtons andre lov for hver av retningene.
+
+Først for $y$-retning, 
+\begin{equation}
+\Sigma F_y = N-G_y = N - G\cos\theta= 0 \Rightarrow N=G\cos\theta
+\end{equation}
+som gir oss størrelsen på normalkrafta, siden akselerasjonen i $y$-retning er null. Som igjen gir oss friksjonskrafta,
+
+\begin{equation}
+f = \mu_k N = \mu_k mg\cos\theta.
+\end{equation}
+
+Newtons andre lov i $x$-retning gir oss så akselerasjonen i $x$-retning. 
+
+\[
+\Sigma F_x = -f -G\sin\theta = - mg( \mu_k \cos\theta +\sin\theta) = m a_x 
+\]
+\begin{equation}
+\Rightarrow a_x = - g( \mu_k \cos\theta + \sin\theta).
+\end{equation}
+
+Løsningen av dette problemet kan finnes i enhver fysikkbok for ingeniørstudenter eller i boka vi bruker i dette kurset, \cite{book}.
+
+\subsection{Bevegelsesligningene}
+Vi har her bevegelse med konstant akselerasjon, og trenger dermed ikke å bruke en numerisk løser for å integrere opp posisjonen og farten fra akselerasjonen. Vi har et tilfelle med kjent startposisjon: $x_0=\unit{0}{\meter}$, kjent startfart $v_0$ i $x$-retning. Samtidig så kjenner vi akselerasjonen, og vi finner da posisjonen som en funksjon av tiden:
+
+\begin{equation}
+x = x_0 + v_0 t + \frac{1}{2}a_x t^2.
+\end{equation}
+
+Trenger vi farta, så er den 
+\begin{equation}
+v=v_0 +a_x t.
+\end{equation}
+
 
 \subsection{Løsning for gitte startverdier}
-Figurer fra octave.
+For å vise at spillet gir riktig fysikk så har jeg også løst problemet i octave, og tar med en figur som viser den riktige oppførselen til klossen.
+Under følger et utdrag fra octave fila, hele fila ligger i repositoriet under navnet \emph{sb1.m}.
+
+\begin{lstlisting}
+
+% I x' retning bruker vi N2.
+a_x2 = 1/m*( G2(1) - f ); % akselerasjonen i x' retning, m/s^2
+
+t = linspace(t_0, dt*t_N, t_N);
+x2= zeros(t_N, 1)'; % En kolonnevektor med t_N nuller, x'
+                    % posisjonen.
+x= zeros(t_N, 1)'; % x posisjonen
+y= zeros(t_N, 1)'; % y posisjonen
+
+
+x2(1) = 0;
+for i=2:t_N
+    x2(i) = v_0 * t(i) + 1/2 * a_x2 * t(i)^2;
+end
+
+plot(t,x2)
+\end{lstlisting}
+
+
+Den figuren som kalles ved koden over er denne
+\begin{figure}[ht!] 
+  \label{fig:kloss}
+  \begin{center}
+    \begin{turn}{0} % rotering
+        \includegraphics[scale=0.4]{octave_plot1} % scale er størrelse ift orig
+    \end{turn}
+  \end{center}
+  \caption{Her vises posisjonen i $x$-retning for klossen som en funksjon av tiden. Den vertikale aksen i figuren er altså hvor langt oppover skråplanet klossen har kommet. Som vi ser, så stopper den på rundt $\unit{8}{\meter}$, mens skråplanet bare er $\unit{1}{\meter}$ langt, og vi taper dermed spillet med de startverdiene vi har brukt her. }
+\end{figure}
+
+
 
 \section{Implementasjon}
-Hvordan har fysikken blitt implementert? Gjerne med pseudokode eller faktisk kode.
+Hvordan har fysikken blitt implementert? Gjerne med pseudokode eller faktisk kode. Forklar hvordan dere har fått de ligningene som gir korrekt løsning inn i unity.
 
-\cite{book}
 
 \bibliography{oblig}
 \bibliographystyle{plain}
