@@ -5,7 +5,7 @@ tull
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
 
-# Obligatorisk oppgave, leveres torsdag 15.9
+# Obligatorisk oppgave, leveres mandag 12.9 (jada Torkil)
 Nå skal dere i ilden.
 
 Dere skal levere en komplett oppgave, som i formen er lik det dere skal levere til den avsluttende eksamensoppgava. Denne oppgava skal ha et spill med fysikk fra kapittel 3 eller 4. Til forskjell fra den endelige oppgava, så trenger ikke fysikken eller spillet å være særlig avansert.
