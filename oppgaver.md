@@ -1,5 +1,7 @@
 # Oppgaver
 
+tull
+
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
 
