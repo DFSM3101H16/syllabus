@@ -44,7 +44,8 @@ Ting å ta med:
 ### Kjørbar versjon av spillet
 Legg ved en kjørbar fil til både windows og linux.
 
-
+## Samarbeid
+Dere kan gjøre denne oppgava som et samarbeidsprosjekt. Bare sørg for at begge parter forstår alle deler. Seinere obligatoriske oppgaver blir individuelle.
 
 
 # Innlevering til tredje forelesning, torsdag 8.9
