@@ -1,11 +1,23 @@
 # Oppgaver
 
-tull
-
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
+# Programmeringsoppgave, leveres mandag 19.9
+Nå skal dere programmere i octave, og der løse et fysikk problem ved å skrive inn deres egen kode for Eulers metode, og deretter fjerde ordens Runge-Kutta.
 
-# Obligatorisk oppgave, leveres mandag 12.9 (jada Torkil)
+Det skal gjøres i etapper, som alltid bør være arbeidsmetoden! Start med enkel kode og et enkelt problem som dere kan regne ut det eksakte svaret for. Så, når dere er sikre på at koden funker der, så kan dere utbrodere koden til å bli mere elegant, dere kan legge inn en mere avansert algoritme (fjerde ordens Runge-Kutta for eksempel) og dere kan løse mere avanserte problemer (legge til luftmotstand for eksempel). Det skal dere gjøre nå ved å gjøre disse programmeringsøvelsene i octave:
+
+1. Ved å programmere deres egen versjon av Eulers metode, skal dere løse problemet: Fall i en dimensjon, med konstant tyngdekraft og ingen luftmotstand.
+Dere legger inn vilkårlige startbetingelser så klart, men det skal bare være en-dimensjonal bevegelse. Altså bare i vertikal retning.
+
+2. Nå skal dere legge til luftmotstand for dette objektet som beveger seg i en dimensjon. Løs det fremdeles med Eulers metode. Hvordan kan dere sjekke at svaret er korrekt?
+
+3. Nå skal dere ta utgangspunkt i den samme koden og løse de to ovenstående problemene med å lage deres egen implementasjon av fjerde ordens Runge-Kutta i stedet.
+
+4. Sammenlign de to metodene. Her vil jeg gjerne se grafer som beskriver nøyaktigheten etter størrelsen på tidsteget, eller antall regneoperasjoner som skal til, for eksempel. 
+
+
+# Obligatorisk oppgave, leveres mandag 12.9
 Nå skal dere i ilden.
 
 Dere skal levere en komplett oppgave, som i formen er lik det dere skal levere til den avsluttende eksamensoppgava. Denne oppgava skal ha et spill med fysikk fra kapittel 3 eller 4. Til forskjell fra den endelige oppgava, så trenger ikke fysikken eller spillet å være særlig avansert.
