@@ -2,6 +2,23 @@
 
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
+# Programmeringsoppgave, leveres mandag 25.9
+Lag et fallkjermhoppespill:
+
+* Spillet starter med at noen hopper ut av et fly uten å ha åpna fallkjermen. Da kan vi se på fallkjermhopperen som f.eks. å ha et sirkulært tverrsnitt på 0.4-0.6m, og en masse på 50-100kg. Farta er null i forhold til bakken i det man hopper.
+
+* Ved å trykke på en knapp åpner fallskjermen seg og blir til en mye større sirkel, f.eks. 20m^2, som da øker drag noe voldsomt.
+
+* Treffer man bakken i for høy hastighet dør man, ( v > 7 m/s skade, v > 16 m/s er lik død)
+
+* Målet med spillet kan være å minimere tiden hoppet tar, uten å dø.
+
+* Mere avanserte mål kan også tas med, hvis man får tid.
+
+* Husk, dere skal skrive levere et komplett prosjekt med dokumentasjon i rapport, README.md med installasjonsinstruks, kommentert kode og alt. I rapporten skal dere, som alltid, beskrive fysikken, ligningene og hvordan dere løser de. Målet for rapporten skal være at man forstår hvilken fysikk som ligger i spillet, uten å måtte prøve spillet for å se om det stemmer. Tenk at dere sjøl skal lese en slik rapport for et spill, og bruke den til å avgjøre hvorvidt fysikken er tilstrekkelig detaljert for deres formål.
+
+
+
 # Programmeringsoppgave, leveres mandag 19.9
 Nå skal dere programmere i octave, og der løse et fysikk problem ved å skrive inn deres egen kode for Eulers metode, og deretter fjerde ordens Runge-Kutta.
 
