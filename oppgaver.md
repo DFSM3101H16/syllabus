@@ -2,6 +2,35 @@
 
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
+# Oppgave, leveres mandag 2.10
+Hvordan blir egentlig eksamensoppgava?
+
+Vel, dere skal levere et kult spill.
+
+Men det er ikke nok. Dere skal også levere dokumentasjon og installasjonsbeskrivelser. Dere skal beskrive alle de fysiske modellene i spillet deres, og hvordan de ligningene løses. Dere skal beskrive koden og gi eksempler som viser hvordan dere har implementert alt sammen.
+
+README.md fila skal inneholde komplette installasjonsinstrukser for å installere spillet og kjøre det, og for å kunne se på koden. Tenk dere at en person som kan noe om data, men ikke har fulgt eller undervist i kurset skal kunne installere dette uten noen store problemer.
+
+De siste ukene har vi gradvis gjort disse tinga samtidig som vi har repetert fysikk, lært om numerisk løsning av ligninger og har programmert spill. Denne ukas oppgave er en veldig fin forberedelse til eksamen, og jeg forventer at dere gjør like mye arbeid med alle spilla seinere. 
+
+Dere skal nå, for et av spilla dere allerede har laget, inkludere en **fjerde ordens Runge-Kutta** løser for å løse ligningene deres. (se på chapter04 koden for SpringSimulator, hvor det er implementert.) 
+
+Dere skal lage et godt **dokument** som:
+* Beskriver spillet,
+* Beskriver fysikken,
+* Beskriver ligningene som skal løses,
+* Beskriver metodene som brukes for å løse de. (fjerde ordens Runge-Kutta og koden for det)
+* Hvordan dere har koda fysikken,
+* hvordan dere har kodet de numeriske løsningene.
+* Hvordan koden er bygget opp og henger sammen i klasser og metoder
+* Skal inneholde **relevante UML diagrammer**
+
+Lag en README.md, som forklarer alle installasjonsstegene fra bunnen av.
+
+Når dere har gjort dette en gang, så er mye av jobben gjort allerede for neste spill! Da bytter vi bare fysikken, men beholder ODEløserene, kanskje nesten alle UML diagrammene og så videre. Kanskje dere til og med bare legger til litt fysikk, men beholder den fysikken dere allerede har koda inn. For eksempel, kanskje dere først tar skrått kast (golfball uten luft), så legger til drag, så legger til magnuseffekten og spinn. Kanskje dere så legger til kollisjon og friksjon og så videre. Dere kan med stor fordel gjøre en god jobb nå, som vil gjøre dere godt forberedt til eksamensoppgava.
+
+
+
 # Programmeringsoppgave, leveres mandag 25.9
 Lag et fallkjermhoppespill:
 
