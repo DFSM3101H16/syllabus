@@ -11,7 +11,7 @@ Men det er ikke nok. Dere skal også levere dokumentasjon og installasjonsbeskri
 
 README.md fila skal inneholde komplette installasjonsinstrukser for å installere spillet og kjøre det, og for å kunne se på koden. Tenk dere at en person som kan noe om data, men ikke har fulgt eller undervist i kurset skal kunne installere dette uten noen store problemer.
 
-De siste ukene har vi gradvis gjort disse tinga samtidig som vi har repetert fysikk, lært om numerisk løsning av ligninger og har programmert spill. Denne ukas oppgave er en veldig fin forberedelse til eksamen, og jeg forventer at dere gjør like mye arbeid med alle spilla seinere. 
+De siste ukene har vi gradvis gjort disse tinga samtidig som vi har repetert fysikk, lært om numerisk løsning av ligninger og har programmert spill. Denne ukas oppgave er en veldig fin forberedelse til eksamen, og jeg regner med at dere legger like mye arbeid ned i alle spilla seinere. 
 
 Dere skal nå, for et av spilla dere allerede har laget, inkludere en **fjerde ordens Runge-Kutta** løser for å løse ligningene deres. (se på chapter04 koden for SpringSimulator, hvor det er implementert.) 
 
