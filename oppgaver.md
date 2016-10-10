@@ -2,6 +2,40 @@
 
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
+# Oppgave, leveres mandag 17.10
+Nå har vi kommet til et punkt hvor vi har det grunnleggende vi trenger for å simulere fysikk i spill.
+
+* Vi har en metode for å sette opp ligninger fra Newtons andro lov, og til å sette opp et sett av første ordens ordinære differensialligninger.
+
+* Disse kan vi løse med fjerde ordens Runge-Kutta.
+
+* Vi kan sette opp spillobjekter i Unity, vi styrer deres posisjon i FixedUpdate() ved hjelp av (x, y, z), (vx, vy, vz) og deres tilhørender diffligninger, dx/dt = vx, dvx/dt = ax osv.
+
+* Vi kan ha kollisjoner som er elastiske eller uelastiske ved hjelp av Line Of Action, rotasjoner og bevaring av bevegelsesmengde.
+
+* Vi har satt opp eksempler på fysiske effekter med: tyngdekraft, luftmotstand, vind, magnuseffekt.
+
+I ukene som kommer skal vi gå gjennom forskjellige typer fysikk som kan brukes til:
+- ballspill, golf, fotball, basketball...
+
+- bilkjøring
+
+- båter
+
+- fly
+
+- raketter
+
+- tilfeldige bevegelser, monte carlo.
+
+## Oppgava
+Lag et nytt spill som kombinerer minst to fysikkomponenter som dere har hatt hittil. For eksempel kollisjoner og skrått kast i et 2D spill. 
+
+Ta utgangspunkt i dokumentasjon dere har skrevet før, og lever spillet med README.md, en manual/dokumentasjon og builds til både windows og linux. 
+
+Nå har dere skrevet en del kode og skripts, og det skal bli enklere og enklere å komme i gang med et nytt spill og å skrive dokumentasjon.
+
+
 # Oppgave, leveres mandag 2.10
 Hvordan blir egentlig eksamensoppgava?
 
