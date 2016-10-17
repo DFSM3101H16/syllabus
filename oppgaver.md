@@ -2,6 +2,33 @@
 
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
+# Oppgave, leveres mandag 24.10
+Reparere, strukturere...
+
+I repositoriet deres kan dere ha ei mappe til hvert spill
+/home
+/home/spill1
+/home/spill2
+
+osv.
+
+I hver spill mappe har dere alle unity tinga,
+/home/spill1/Assets
+/home/spill1/Library
+osv.
+
+I tillegg lager dere ei mappe der med Builds til linux og windows
+/home/spill1/Builds/Linux
+/home/spill1/Builds/windows
+Hvor dere builder standalone versjonene av spilla deres.
+
+Dokumentasjonen til hvert spill, manual med uml diagrammer og slikt, legges inn i ei egen mappe som heter (big surprise) Documentation
+
+/home/spill1/Documentation
+
+Med denne strukturen trenger dere ikke å slette gamle spill, selv om de blir værende i git repositoriet som gamle commits, men dere har ei mappe for hvert spill, med alle builds og dokumentasjon og alle unity filer som undermapper i hver mappe til hvert spill.
+
+
 # Oppgave, leveres mandag 17.10
 Nå har vi kommet til et punkt hvor vi har det grunnleggende vi trenger for å simulere fysikk i spill.
 
