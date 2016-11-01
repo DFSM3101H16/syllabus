@@ -2,6 +2,48 @@
 
 Her kommer alle ukesoppgavene vi skal jobbe med gjennom semesteret.
 
+# Eksamensoppgava
+Eksamen er **mandag 5. desember**. 
+
+Dere skal **levere** inn eksamensoppgava **mandag 28. november klokka 1400**, da setter jeg meg ned og puller repositoriene deres. Endringer etter denne datoen vil ikke bli tatt hensyn til ved bedømmelse av den skriftlige delen, men dere kan vise fram endringer under presentasjonen deres om dere vil, og vi vil eventuelt ta hensyn til det da.
+
+Etter det lager dere en presentasjon av spillet deres og fysikken i spillet deres, som dere skal holde på den første delen av den muntlige eksamenen mandag 5. desember. Presentasjonen skal være på 10 minutter, og skal være med både tale og bilder eller spill eller lignende.
+
+## Innholdet i eksamensoppgava
+I teksten til tidligere uker finner dere flere ting som skal være med i eksamensoppgava dere leverer. Den **SKAL** inneholde dette:
+
+* Et kult spill, med unity mappa (unntatt de filene som ikke trengs, se .gitignore lenger ned).
+
+* Dokumentasjon.
+
+* En korrekt mappestruktur, /home, /home/spill/, /home/spill/Builds, /home/spill/Documentation,
+
+* Ferdig kompilerte spill, builds, til linux og windows, i riktige mapper Builds/Linux og Builds/Windows. Se lenger ned i dokumentet for mer informasjon.
+
+## Dokumentasjonen
+Som nevnt tidligere i dette dokumentet er dokumentasjonen viktig. 
+
+Dere må huske på å ha 
+
+* Delkapitler, numererte. (1. Introduksjon, 2. Fysikken i spillet, 3. Implementasjon i kode, 4. Referanser, for eksempel).
+
+* Dere må forklare hva spillet går ut på, og ha med bilder fra spillet.
+
+* Dere må forklare fysikken dere bruker i spillet, og hvordan de fysiske modellene løses matematisk. 
+
+* Og så må dere forklare sammenhengen mellom de matematiske løsningene av de fysiske modellene og koden deres.
+
+* Dere må ha med referanser. Det er lov å hente ting utenfra, men det er ikke lov å gjøre det uten å referere til det.
+
+
+
+
+## Bedømming av eksamen
+Dere må levere både dokumentasjon og spill for å bestå. Både spillet og dokumentasjonen er essensielle deler av det dere har gjort i dette kurset.
+
+Eksamenen består av en skriftlig og en muntlig del, og i utgangspunktet vil det dere leverer før den muntlige eksamenen telle mest.
+
+
 # Oppgave, leveres mandag 24.10
 Reparere, strukturere...
 
